@@ -81,7 +81,7 @@
         "workbox-webpack-plugin": "5.1.4"
     },
     "scripts": {
-        "start": "concurrently \"node scripts/start.js\" \"json-server --watch public/db.json\" ",
+        "start": "node scripts/start.js",
         "build": "node scripts/build.js",
         "test": "node scripts/test.js",
         "server": "npx json-server --watch public/db.json --port=3001"
